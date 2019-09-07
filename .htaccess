@@ -1,0 +1,9 @@
+
+#RewriteEngine on
+#RewriteCond %{HTTP_HOST} ^genuinesolutionoftaxes\.in\.cheapestyatra\.com$ [OR]
+#RewriteCond %{HTTP_HOST} ^www\.genuinesolutionoftaxes\.in\.cheapestyatra\.com$
+#RewriteRule ^/?$ "http\:\/\/genuinesolutionoftaxes\.in" [R=301,L]
+
+RewriteEngine On 
+RewriteCond %{SERVER_PORT} 80 
+RewriteRule ^(.*)$ https://www.genuinesolutionoftaxes.in/$1 [R,L]
